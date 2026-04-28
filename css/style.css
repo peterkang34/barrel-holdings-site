@@ -347,20 +347,15 @@ p a:hover, p a:active { color: #397FC0; }
   margin-top: 26px;
   padding: 26px 29px;
   border-left: 3px solid #4593d8;
-  background-color: rgba(69, 147, 216, 0.10);
-}
-
-.criteria-card--secondary {
-  border-left-color: rgba(69, 147, 216, 0.5);
-  background-color: rgba(69, 147, 216, 0.06);
+  background-color: rgba(69, 147, 216, 0.14);
 }
 
 .criteria-card__number {
   font-family: Rubik, sans-serif;
   font-size: 34px;
-  font-weight: 300;
+  font-weight: 400;
   line-height: 1;
-  color: rgba(69, 147, 216, 0.35);
+  color: #4593d8;
   flex-shrink: 0;
   width: 29px;
   padding-top: 2px;
