@@ -165,7 +165,7 @@ p a:hover, p a:active { color: #397FC0; }
 .company-block {
   background-color: #000;
   width: 100%;
-  height: 192px;
+  aspect-ratio: 308 / 192;
   display: inline-block;
   transition: border-color .2s cubic-bezier(.165, .84, .44, 1);
 }
@@ -434,7 +434,6 @@ p a:hover, p a:active { color: #397FC0; }
   .section-heading.gray-text { font-size: 24px; }
   .content-wrapper { margin-top: 48px; }
   .companies-grid { grid-column-gap: 20px; margin-top: 24px; }
-  .company-block { height: 160px; }
   .barrel-logo { width: 50%; }
   .logo { font-size: 18px; }
   .caption { margin-top: 10px; }
@@ -446,33 +445,32 @@ p a:hover, p a:active { color: #397FC0; }
 @media screen and (max-width: 767px) {
   .site-wrapper { padding: 32px; }
   .tagline-wrapper { width: 100%; margin-top: 32px; }
-  .tagline { font-size: 36px; }
+  .tagline { font-size: 42px; }
   .section-heading,
-  .section-heading.gray-text { font-size: 26px; }
+  .section-heading.gray-text { font-size: 30px; }
   .content-wrapper { margin-top: 32px; margin-bottom: 48px; }
   .companies-grid {
     grid-column-gap: 12px;
     grid-row-gap: 16px;
     margin-top: 16px;
   }
-  .company-block { height: 120px; }
   .barrel-logo { width: 50%; }
-  .logo { font-size: 21px; }
-  .body-text { font-size: 18px; }
-  .body-text--tight-q1 { margin-bottom: 21px; }
-  .subhead { font-size: 18px; }
-  .caption { margin-top: 8px; font-size: 18px; }
-  .bullet-list li { font-size: 18px; }
+  .logo { font-size: 24px; }
+  .body-text { font-size: 21px; }
+  .body-text--tight-q1 { margin-bottom: 24px; }
+  .subhead { font-size: 21px; }
+  .caption { margin-top: 8px; font-size: 21px; }
+  .bullet-list li { font-size: 21px; }
   .headshot { width: 100%; max-width: 220px; }
 
   .resource-box { padding: 26px 22px 19px; }
-  .resource-box__logo { height: 25px; }
-  .resource-box__text { font-size: 17px; }
+  .resource-box__logo { height: 29px; }
+  .resource-box__text { font-size: 20px; }
 
   .criteria-card { padding: 19px 16px; gap: 14px; }
-  .criteria-card__number { font-size: 34px; width: 28px; }
-  .criteria-card__title { font-size: 20px; }
-  .criteria-card__list li { font-size: 16px; }
+  .criteria-card__number { font-size: 39px; width: 32px; }
+  .criteria-card__title { font-size: 23px; }
+  .criteria-card__list li { font-size: 18px; }
 }
 
 /* =====================
@@ -481,31 +479,30 @@ p a:hover, p a:active { color: #397FC0; }
 @media screen and (max-width: 479px) {
   .site-wrapper { padding: 16px; }
   .tagline-wrapper { margin-top: 24px; }
-  .tagline { font-size: 26px; }
-  .section-heading { font-size: 21px; }
-  .section-heading.gray-text { font-size: 16px; }
+  .tagline { font-size: 30px; }
+  .section-heading { font-size: 24px; }
+  .section-heading.gray-text { font-size: 18px; }
   .content-wrapper { margin-top: 32px; margin-bottom: 32px; }
   .companies-grid { width: 100%; margin-top: 16px; }
-  .company-block { height: 80px; }
   .barrel-logo { width: 60%; }
-  .logo { font-size: 17px; line-height: 17px; }
-  .body-text { font-size: 14px; }
-  .body-text--tight-q1 { margin-bottom: 21px; }
-  .subhead { font-size: 14px; }
-  .caption { margin-top: 8px; font-size: 13px; }
-  .bullet-list li { font-size: 14px; }
+  .logo { font-size: 20px; line-height: 20px; }
+  .body-text { font-size: 17px; }
+  .body-text--tight-q1 { margin-bottom: 24px; }
+  .subhead { font-size: 17px; }
+  .caption { margin-top: 8px; font-size: 15px; }
+  .bullet-list li { font-size: 17px; }
   .alt-logo-image { width: 65%; }
   .alt-logo-image.vo { width: 46%; }
-  .button { padding: 8px 16px; font-size: 14px; }
-  .button-secondary { padding: 8px 16px; font-size: 14px; }
+  .button { padding: 10px 18px; font-size: 17px; }
+  .button-secondary { padding: 10px 18px; font-size: 17px; }
 
   .resource-box { padding: 19px 16px 16px; }
-  .resource-box__logo { height: 21px; }
-  .resource-box__text { font-size: 14px; }
+  .resource-box__logo { height: 24px; }
+  .resource-box__text { font-size: 17px; }
 
   .criteria-card { flex-direction: column; gap: 6px; padding: 16px 13px; }
-  .criteria-card__number { font-size: 29px; }
-  .criteria-card__title { font-size: 18px; }
-  .criteria-card__subtitle { font-size: 13px; }
-  .criteria-card__list li { font-size: 14px; }
+  .criteria-card__number { font-size: 33px; }
+  .criteria-card__title { font-size: 21px; }
+  .criteria-card__subtitle { font-size: 15px; }
+  .criteria-card__list li { font-size: 17px; }
 }
