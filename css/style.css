@@ -433,7 +433,7 @@ p a:hover, p a:active { color: #397FC0; }
    Responsive: Tablet
    ===================== */
 @media screen and (max-width: 991px) {
-  .site-wrapper { padding: 48px; }
+  .site-wrapper { padding: 52px; }
   .tagline-wrapper { margin-top: 48px; }
   .tagline { font-size: 32px; }
   .section-heading { margin-top: 0; margin-bottom: 16px; }
@@ -449,7 +449,7 @@ p a:hover, p a:active { color: #397FC0; }
    Responsive: Mobile Landscape
    ===================== */
 @media screen and (max-width: 767px) {
-  .site-wrapper { padding: 32px; }
+  .site-wrapper { padding: 36px; }
   .tagline-wrapper { width: 100%; margin-top: 32px; }
   .tagline { font-size: 42px; }
   .section-heading,
@@ -486,7 +486,7 @@ p a:hover, p a:active { color: #397FC0; }
    Responsive: Mobile Portrait
    ===================== */
 @media screen and (max-width: 479px) {
-  .site-wrapper { padding: 16px; }
+  .site-wrapper { padding: 20px; }
   .tagline-wrapper { margin-top: 24px; }
   .tagline { font-size: 30px; }
   .section-heading { font-size: 24px; }
