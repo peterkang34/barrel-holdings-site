@@ -446,9 +446,9 @@ p a:hover, p a:active { color: #397FC0; }
 @media screen and (max-width: 767px) {
   .site-wrapper { padding: 32px; }
   .tagline-wrapper { width: 100%; margin-top: 32px; }
-  .tagline { font-size: 28px; }
+  .tagline { font-size: 36px; }
   .section-heading,
-  .section-heading.gray-text { font-size: 20px; }
+  .section-heading.gray-text { font-size: 26px; }
   .content-wrapper { margin-top: 32px; margin-bottom: 48px; }
   .companies-grid {
     grid-column-gap: 12px;
@@ -457,22 +457,22 @@ p a:hover, p a:active { color: #397FC0; }
   }
   .company-block { height: 120px; }
   .barrel-logo { width: 50%; }
-  .logo { font-size: 16px; }
-  .body-text { font-size: 14px; }
-  .body-text--tight-q1 { margin-bottom: 16px; }
-  .subhead { font-size: 14px; }
-  .caption { margin-top: 8px; font-size: 14px; }
-  .bullet-list li { font-size: 14px; }
+  .logo { font-size: 21px; }
+  .body-text { font-size: 18px; }
+  .body-text--tight-q1 { margin-bottom: 21px; }
+  .subhead { font-size: 18px; }
+  .caption { margin-top: 8px; font-size: 18px; }
+  .bullet-list li { font-size: 18px; }
   .headshot { width: 100%; max-width: 220px; }
 
   .resource-box { padding: 26px 22px 19px; }
-  .resource-box__logo { height: 19px; }
-  .resource-box__text { font-size: 13px; }
+  .resource-box__logo { height: 25px; }
+  .resource-box__text { font-size: 17px; }
 
   .criteria-card { padding: 19px 16px; gap: 14px; }
-  .criteria-card__number { font-size: 26px; width: 22px; }
-  .criteria-card__title { font-size: 15px; }
-  .criteria-card__list li { font-size: 12px; }
+  .criteria-card__number { font-size: 34px; width: 28px; }
+  .criteria-card__title { font-size: 20px; }
+  .criteria-card__list li { font-size: 16px; }
 }
 
 /* =====================
@@ -481,31 +481,31 @@ p a:hover, p a:active { color: #397FC0; }
 @media screen and (max-width: 479px) {
   .site-wrapper { padding: 16px; }
   .tagline-wrapper { margin-top: 24px; }
-  .tagline { font-size: 20px; }
-  .section-heading { font-size: 16px; }
-  .section-heading.gray-text { font-size: 12px; }
+  .tagline { font-size: 26px; }
+  .section-heading { font-size: 21px; }
+  .section-heading.gray-text { font-size: 16px; }
   .content-wrapper { margin-top: 32px; margin-bottom: 32px; }
   .companies-grid { width: 100%; margin-top: 16px; }
   .company-block { height: 80px; }
   .barrel-logo { width: 60%; }
-  .logo { font-size: 13px; line-height: 13px; }
-  .body-text { font-size: 11px; }
-  .body-text--tight-q1 { margin-bottom: 16px; }
-  .subhead { font-size: 11px; }
-  .caption { margin-top: 8px; font-size: 10px; }
-  .bullet-list li { font-size: 11px; }
+  .logo { font-size: 17px; line-height: 17px; }
+  .body-text { font-size: 14px; }
+  .body-text--tight-q1 { margin-bottom: 21px; }
+  .subhead { font-size: 14px; }
+  .caption { margin-top: 8px; font-size: 13px; }
+  .bullet-list li { font-size: 14px; }
   .alt-logo-image { width: 65%; }
   .alt-logo-image.vo { width: 46%; }
-  .button { padding: 8px 16px; font-size: 11px; }
-  .button-secondary { padding: 8px 16px; font-size: 11px; }
+  .button { padding: 8px 16px; font-size: 14px; }
+  .button-secondary { padding: 8px 16px; font-size: 14px; }
 
   .resource-box { padding: 19px 16px 16px; }
-  .resource-box__logo { height: 16px; }
-  .resource-box__text { font-size: 11px; }
+  .resource-box__logo { height: 21px; }
+  .resource-box__text { font-size: 14px; }
 
   .criteria-card { flex-direction: column; gap: 6px; padding: 16px 13px; }
-  .criteria-card__number { font-size: 22px; }
-  .criteria-card__title { font-size: 14px; }
-  .criteria-card__subtitle { font-size: 10px; }
-  .criteria-card__list li { font-size: 11px; }
+  .criteria-card__number { font-size: 29px; }
+  .criteria-card__title { font-size: 18px; }
+  .criteria-card__subtitle { font-size: 13px; }
+  .criteria-card__list li { font-size: 14px; }
 }
