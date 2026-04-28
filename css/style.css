@@ -347,12 +347,12 @@ p a:hover, p a:active { color: #397FC0; }
   margin-top: 26px;
   padding: 26px 29px;
   border-left: 3px solid #4593d8;
-  background-color: rgba(69, 147, 216, 0.04);
+  background-color: rgba(69, 147, 216, 0.10);
 }
 
 .criteria-card--secondary {
   border-left-color: rgba(69, 147, 216, 0.5);
-  background-color: rgba(69, 147, 216, 0.02);
+  background-color: rgba(69, 147, 216, 0.06);
 }
 
 .criteria-card__number {
