@@ -438,6 +438,15 @@ p a:hover, p a:active { color: #397FC0; }
   display: block;
 }
 
+.form-embed__fallback {
+  font-family: Rubik, sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1.5;
+  color: rgba(0, 0, 0, 0.6);
+  margin: 12px 0 0;
+}
+
 /* =====================
    Criteria Cards
    ===================== */
